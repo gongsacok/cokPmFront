@@ -89,6 +89,10 @@ a > img {
 }
 
 @media screen and (max-width: 429px) {
+  .visualBox_buttonWrap button,
+  .visualBox_buttonWrap a {
+    font-family: "Pretendard-SemiBold";
+  }
   a > img {
     margin-right: 4px;
     height: 12px;
